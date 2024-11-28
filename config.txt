@@ -1,0 +1,6 @@
+Prefix pipelines/FELLA/
+#Plugin KEGGDB inputfile parameters/parameters.keggdb.txt outputfile my_database
+#Plugin Enrich inputfile parameters/parameters.enrich.txt outputfile enriched.rds
+#Plugin DiffusionPlot inputfile parameters/parameters.diffusionplot.txt outputfile diffusion.pdf
+#Plugin DiffusionSubplot inputfile parameters/parameters.diffusionplot.txt outputfile diffsub.pdf
+Plugin Wilcox inputfile parameters/parameters.wilcox.txt outputfile wilcox.pdf
